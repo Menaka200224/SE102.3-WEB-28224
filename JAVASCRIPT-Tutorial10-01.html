@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>nsbm</title>
+</head>
+<body>
+  <script>
+    var x = parseFloat(window.prompt("Enter first number: "));
+    var y = parseFloat(window.prompt("Enter second number: "));
+    var operator = window.prompt("Enter operator you want to perform '+', '-', '/', '*': ");
+
+    switch (operator) {
+      case '+':
+        document.write("Answer = " + (x + y));
+        break;
+      case '-':
+        document.write("Answer = " + (x - y));
+        break;
+      case '/':
+        document.write("Answer = " + (x / y));
+        break;
+      case '*':
+        document.write("Answer = " + (x * y));
+        break;
+      default:
+        document.write("Invalid operator.");
+        break;
+    }
+  </script>
+</body>
+</html>
